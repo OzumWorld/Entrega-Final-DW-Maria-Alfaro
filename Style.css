@@ -8,8 +8,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=EB+Garamond&display=swap');
 
-.main {
-  font-family: 'IM Fell English SC', serif;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 576px) {
@@ -30,7 +31,6 @@
     max-width: 100%;
   }
 }
-
 .navbar-brand {
   font-family: 'EB Garamond', serif;
   font-size: 1.5rem;
@@ -43,28 +43,52 @@
   border: 1px solid transparent;
   transition: all 0.3s ease;
 }
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-bottom: 1px solid #d4c365;
+  font-family: 'IM Fell English SC', serif;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
 
-.nav-link {
-  font-family: 'EB Garamond', serif;
+.navbar .nav-link {
+  color: #d4c365 !important;
+  background-color: transparent !important;
   padding: 0.5rem 1rem;
-  font-weight: 500;
-  color: #d4c365;
-  background-color: transparent;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  border: 1px solid transparent;
   transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  border-radius: 5px;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #eedd99 !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border-bottom: 1px solid #eedd99;
+}
+.navbar .nav-link:hover {
+  color: #fffbe6 !important;
+  background-color: rgba(212, 195, 101, 0.15) !important;
+  border-bottom: 2px solid #d4c365;
+}
+.navbar .nav-link:focus {
+  color: #fffbe6 !important;
+  background-color: rgba(212, 195, 101, 0.15) !important;
+  border-bottom: 2px solid #d4c365;
 }
 
-.nav-link:hover {
-  background-color: #dbcd51;
-  color: #092665;
-  border: 1px solid #dbcd51;
+.navbar .nav-link.active {
+  color: #fffbe6 !important;
+  border-bottom: 2px solid #d4c365;
 }
+
 
 a.nav-link.active {
   border-bottom: 2px solid #ffc107;
+}
+.item nav {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 html, body {
