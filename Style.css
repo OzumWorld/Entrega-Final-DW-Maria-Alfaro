@@ -32,7 +32,6 @@ body {
   }
 }
 
-/* NAVBAR */
 .navbar {
   border-bottom: 1px solid #d4c365;
   font-family: 'IM Fell English SC', serif;
@@ -41,7 +40,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'EB Garamond', serif, sans-serif;
+  font-family: 'EB Garamond', serif;
   font-size: 1.5rem;
   color: #f6f1ec;
   letter-spacing: 1px;
@@ -79,7 +78,6 @@ body {
   align-items: center;
 }
 
-/* GENERAL */
 html, body {
   font-family: 'EB Garamond', serif;
   overflow-x: hidden;
@@ -93,7 +91,6 @@ h1, h2, h3 {
   color: #fff7e6;
 }
 
-/* HEADER */
 .header {
   background-color: rgba(255, 248, 230, 0.8);
   padding: 2rem 1rem;
@@ -137,7 +134,6 @@ h1, h2, h3 {
   margin-top: 0.5rem;
 }
 
-/* SECTIONS */
 .section {
   background-color: rgba(255, 248, 230, 0.85);
   border: 1px solid #d8c89a;
@@ -176,7 +172,6 @@ h1, h2, h3 {
   border-color: #d39e00;
 }
 
-/* IMÁGENES */
 .thumb {
   display: block;
   margin: 1rem auto;
@@ -195,7 +190,6 @@ h1, h2, h3 {
   box-shadow: 0 0 20px rgba(210, 180, 140, 0.5);
 }
 
-/* LISTAS */
 ul {
   list-style: none;
   padding-left: 0;
@@ -209,7 +203,6 @@ li {
   background-color: #fff;
 }
 
-/* FORMULARIOS */
 .form {
   text-align: left;
   max-width: 600px;
@@ -246,7 +239,6 @@ li {
   background-color: #6a4e2d;
 }
 
-/* ANIMACIONES */
 .fade-in {
   animation: fadeIn 2s ease-in-out;
 }
@@ -256,7 +248,6 @@ li {
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* PRÓLOGO */
 .prologue {
   max-width: 800px;
   margin: 2rem auto;
