@@ -65,7 +65,7 @@ body {
   border-bottom: 1px solid #eedd99;
 }
 .navbar .nav-link:hover {
-  color: #fffbe6 !important;
+  color: #e3b80c !important;
   background-color: rgba(212, 195, 101, 0.15) !important;
   border-bottom: 2px solid #d4c365;
 }
