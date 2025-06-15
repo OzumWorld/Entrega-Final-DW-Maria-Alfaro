@@ -52,7 +52,7 @@ body {
 
 .navbar .nav-link {
   color: #d4c365 !important;
-  background-color: #ffc107;
+  background-color: #094ac3;
   padding: 0.5rem 1rem;
   transition: all 0.3s ease;
   border-bottom: 2px solid transparent;
@@ -60,8 +60,8 @@ body {
 }
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #ffc107 !important;
-  background-color: rgba(15, 14, 14, 0.05) !important;
+  color: #113aa3 !important;
+  background-color: #ffc107 !important;
   border-bottom: 1px solid #eedd99;
 }
 .navbar .nav-link:hover {
