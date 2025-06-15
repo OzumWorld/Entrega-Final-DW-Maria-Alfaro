@@ -61,13 +61,14 @@ body {
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: #eedd99 !important;
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(15, 14, 14, 0.05) !important;
   border-bottom: 1px solid #eedd99;
 }
 .navbar .nav-link:hover {
   color: #e3b80c !important;
   background-color: rgba(212, 195, 101, 0.15) !important;
-  border-bottom: 2px solid #d4c365;
+  border-bottom: 2px solid #ffc107;
+  ;
 }
 .navbar .nav-link:focus {
   color: #fffbe6 !important;
@@ -76,7 +77,7 @@ body {
 }
 
 .navbar .nav-link.active {
-  color: #fffbe6 !important;
+  color: #141413 !important;
   border-bottom: 2px solid #d4c365;
 }
 
