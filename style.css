@@ -35,7 +35,7 @@ body {
   font-family: 'EB Garamond', serif;
   font-size: 1.5rem;
   color: #d4c365;
-  background-color: #ffc107;
+  background-color: transparent;
   letter-spacing: 1px;
   border-radius: 5px;
   text-align: center;
@@ -52,7 +52,7 @@ body {
 
 .navbar .nav-link {
   color: #d4c365 !important;
-  background-color: transparent !important;
+  background-color: #ffc107;
   padding: 0.5rem 1rem;
   transition: all 0.3s ease;
   border-bottom: 2px solid transparent;
