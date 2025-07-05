@@ -1,0 +1,11 @@
+@use '../abstracts/index' as abstracts;
+
+.section {
+    background-color: abstracts.$color-light-bg;
+    border: 1px solid abstracts.$color-secondary;
+    padding: 2rem 1.5rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}

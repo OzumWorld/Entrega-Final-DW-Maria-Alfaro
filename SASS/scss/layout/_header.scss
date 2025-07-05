@@ -1,0 +1,26 @@
+// layout/_header.scss
+
+@use '../abstracts/index' as abstracts;
+
+.header {
+    background-color: rgba(255, 248, 230, 0.8);
+    padding: 2rem 1rem;
+    border: 2px solid abstracts.$color-secondary;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.header__title {
+    font-family: abstracts.$font-primary;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    margin: 1rem 0 0.5rem;
+    color: abstracts.$color-primary;
+}
+
+.header__subtitle {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 1rem;
+}

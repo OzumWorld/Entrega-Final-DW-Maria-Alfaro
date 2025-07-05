@@ -1,0 +1,9 @@
+@use '../abstracts/index' as abstracts;
+
+body {
+  font-family: abstracts.$font-primary, sans-serif;
+  background-color: abstracts.$color-primary;
+  color: #fff7e6;
+  margin: 0;
+  padding: 0;
+}

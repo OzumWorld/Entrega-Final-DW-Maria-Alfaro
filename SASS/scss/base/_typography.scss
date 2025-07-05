@@ -1,0 +1,18 @@
+// base/_typography.scss
+
+@use '../abstracts/index' as abstracts;
+
+body {
+    font-family: abstracts.$font-primary;
+    background-color: abstracts.$color-primary;
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+  
+h1, h2, h3 {
+    font-family: abstracts.$font-primary;
+    color: #fff7e6;
+}
+
+  

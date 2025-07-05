@@ -1,0 +1,8 @@
+@use '../abstracts/index' as abstracts;
+
+.hide-on-xs {
+  @include abstracts.respond-to(xs) {
+    display: none;
+  }
+}
+

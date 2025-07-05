@@ -1,0 +1,70 @@
+body {
+    background: radial-gradient(circle at center, #001a33 0%, #000 100%);
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .medusa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0,255,255,0.7) 0%, rgba(0,100,255,0.3) 70%);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
+    animation: float 4s ease-in-out infinite, colorchange 6s linear infinite;
+  }
+  
+  .tentacle {
+    position: absolute;
+    width: 4px;
+    height: 80px;
+    background: rgba(0, 255, 255, 0.5);
+    top: 100%;
+    left: 50%;
+    transform-origin: top center;
+    animation: wave 2s ease-in-out infinite;
+  }
+  
+  .tentacle:nth-child(1) {
+    transform: translateX(-40px) rotate(0deg);
+    animation-delay: 0s;
+  }
+  .tentacle:nth-child(2) {
+    transform: translateX(-20px) rotate(0deg);
+    animation-delay: 0.5s;
+  }
+  .tentacle:nth-child(3) {
+    transform: translateX(0px) rotate(0deg);
+    animation-delay: 1s;
+  }
+  .tentacle:nth-child(4) {
+    transform: translateX(20px) rotate(0deg);
+    animation-delay: 1.5s;
+  }
+  .tentacle:nth-child(5) {
+    transform: translateX(40px) rotate(0deg);
+    animation-delay: 2s;
+  }
+  
+  @keyframes float {
+    0% { transform: translate(-50%, -50%) translateY(0); }
+    50% { transform: translate(-50%, -50%) translateY(-30px); }
+    100% { transform: translate(-50%, -50%) translateY(0); }
+  }
+  
+  @keyframes wave {
+    0% { transform: translateX(0) rotate(0deg); }
+    50% { transform: translateX(0) rotate(15deg); }
+    100% { transform: translateX(0) rotate(0deg); }
+  }
+  
+  @keyframes colorchange {
+    0% { background: radial-gradient(circle, rgba(0,255,255,0.7) 0%, rgba(0,100,255,0.3) 70%); }
+    50% { background: radial-gradient(circle, rgba(0,255,150,0.7) 0%, rgba(0,100,200,0.3) 70%); }
+    100% { background: radial-gradient(circle, rgba(0,255,255,0.7) 0%, rgba(0,100,255,0.3) 70%); }
+  }
+  

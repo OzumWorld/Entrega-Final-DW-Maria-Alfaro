@@ -1,0 +1,43 @@
+$luminaris-color: rgba(255, 255, 200, 0.7);
+$glow-color: rgba(255, 255, 200, 0.9);
+$particle-size: 10px;
+$num-particles: 30;
+
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+
+  @for $i from 1 through $num-particles {
+    .particle-#{$i} {
+      position: absolute;
+      top: random(100) * 1%;
+      left: random(100) * 1%;
+      width: $particle-size;
+      height: $particle-size;
+      background: $luminaris-color;
+      border-radius: 50%;
+      box-shadow: 0 0 8px $glow-color;
+      animation: float-#{$i} random(15)+5s linear infinite;
+    }
+
+    @keyframes float-#{$i} {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: translateY(-random(200)+50px) scale(1.5);
+        opacity: 0.5;
+      }
+      100% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+    }
+  }
+}

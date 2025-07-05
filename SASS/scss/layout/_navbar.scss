@@ -1,0 +1,23 @@
+// layout/_navbar.scss
+
+@use '../abstracts/index' as abstracts;
+
+.navbar {
+    background-color: rgba(7, 41, 193, 0.5) !important;
+    border-bottom: 1px solid abstracts.$color-secondary;
+    font-family: abstracts.$font-secondary;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
+    font-family: abstracts.$font-primary;
+    font-size: 1.5rem;
+    color: abstracts.$color-secondary;
+    background-color: transparent;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}

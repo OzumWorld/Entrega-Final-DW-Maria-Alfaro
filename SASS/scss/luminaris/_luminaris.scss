@@ -1,0 +1,25 @@
+.luminaris-img {
+    width: 200px;
+    height: 200px;
+    background-image: url('../imagenes/luminaris.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: flotar 5s ease-in-out infinite;
+  }
+  
+  @keyframes flotar {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+  .luminaris-img {
+    animation: flotar 5s ease-in-out infinite;
+  }
+  
+  @keyframes flotar {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+  
