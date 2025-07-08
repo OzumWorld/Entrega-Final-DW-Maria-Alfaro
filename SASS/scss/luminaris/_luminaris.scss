@@ -1,25 +1,56 @@
 .luminaris-img {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
+  background-image: url('../imagenes/luminaris.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: flotar 5s ease-in-out infinite;
+}
+
+@keyframes flotar {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+.luminaris-img {
+  animation: flotar 5s ease-in-out infinite;
+}
+
+@keyframes flotar {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+.luminaris {
+  position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+
+  .luminaris-img {
+    position: absolute;
+    top: random(100) * 1%;
+    left: random(100) * 1%;
+    width: 100px;
+    height: 100px;
     background-image: url('../imagenes/luminaris.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    animation: flotar 5s ease-in-out infinite;
+    animation: flotar random(15)+5s linear infinite;
   }
-  
-  @keyframes flotar {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
-  }
-  .luminaris-img {
-    animation: flotar 5s ease-in-out infinite;
-  }
-  
-  @keyframes flotar {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
-  }
-  
+}
+.medusa {
+  width: 100px;
+  height: 100px;
+  background-image: url("../imagenes/medusa.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin: 0 auto;
+}

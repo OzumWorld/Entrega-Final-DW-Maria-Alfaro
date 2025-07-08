@@ -305,3 +305,53 @@ li {
   margin: 0 auto;
   overflow: hidden;
 }
+
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: none; /* No queremos background-image gigante */
+}
+
+.luminaris-img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  animation: flotar 5s ease-in-out infinite;
+}
+
+@keyframes flotar {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+.medusa {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  background-image: url("../imagenes/medusa.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: flotar 5s ease-in-out infinite;
+}
+
+/* Si la querés pequeña dentro del contenedor Luminaris: */
+.luminaris-container .medusa {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("../imagenes/medusa.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
