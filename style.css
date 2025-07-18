@@ -176,21 +176,21 @@ html, body {
   color: #fff;
 }
 
-.p {
+p {
   margin: 0 auto;
   max-width: 100%;
 }
 
-.ul {
+ul {
   list-style: none;
   padding-left: 0;
 }
-.ul.list-dark li {
+ul.list-dark li {
   background-color: transparent;
   color: #fff;
   border-color: #d2b48c;
 }
-.li {
+li {
   margin: 0.5rem 0;
   color: #333;
   border: 1px solid #d8c89a;
