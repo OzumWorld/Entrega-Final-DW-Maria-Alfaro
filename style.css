@@ -100,7 +100,7 @@ html, body {
 
 .header__text {
   font-size:0.95rem;
-  padding: 0 1 rem;
+  padding: 0 1rem;
   color: #111010;
   margin-top: 0.5rem;
   word-wrap: break-word;
@@ -122,7 +122,7 @@ html, body {
 
 .section__title {
   font-family: 'IM Fell English SC', serif;
-  font-size: clamp(1,2rem, 6vw,2rem);
+  font-size: clamp(1.5rem, 6vw, 2rem);
   margin-bottom: 1rem;
   color: #092665;
 }
@@ -176,16 +176,21 @@ html, body {
   color: #fff;
 }
 
-ul {
+.p {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.ul {
   list-style: none;
   padding-left: 0;
 }
-ul.list-dark li {
+.ul.list-dark li {
   background-color: transparent;
   color: #fff;
   border-color: #d2b48c;
 }
-li {
+.li {
   margin: 0.5rem 0;
   color: #333;
   border: 1px solid #d8c89a;
@@ -289,7 +294,21 @@ li {
     font-size: 1rem;
     padding: 0 1rem;
   }
-
+@media (max-width: 768px) {
+  .section__title,
+  .section__text {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  }
   .btn-cta {
     width: 100%;
     max-width: 280px;
