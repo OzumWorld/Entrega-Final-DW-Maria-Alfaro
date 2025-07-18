@@ -194,6 +194,24 @@ li {
   background-color: #fff;
 }
 
+.lista-proyectos {
+  list-style: disc;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.lista-proyectos li {
+  background: none;
+  border: none;
+  color: inherit;
+  margin: 0.3rem 0;
+}
 
 .form {
   text-align: left;
