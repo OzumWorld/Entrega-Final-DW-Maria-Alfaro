@@ -54,6 +54,7 @@ html, body {
 }
 
 .header {
+  text-align: center;
   background-color: rgba(255, 248, 230, 0.8);
   padding: 2rem 1rem;
   border: 2px solid #d2b48c;
@@ -76,6 +77,8 @@ html, body {
   letter-spacing: 2px;
   margin: 1rem 0 0.5rem;
   color: #092665;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .header__subtitle {
@@ -88,12 +91,22 @@ html, body {
   font-weight: bold;
   font-size: 1.6rem;
   color: #1a1919;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
 }
 
+
 .header__text {
-  font-size: 1rem;
+  font-size:0.95rem;
+  padding: 0 1 rem;
   color: #111010;
   margin-top: 0.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
 }
 
 .section {
