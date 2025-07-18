@@ -185,11 +185,7 @@ ul {
   list-style: none;
   padding-left: 0;
 }
-ul.list-dark li {
-  background-color: transparent;
-  color: #fff;
-  border-color: #d2b48c;
-}
+
 li {
   margin: 0.5rem 0;
   color: #333;
@@ -197,6 +193,7 @@ li {
   border-radius: 5px;
   background-color: #fff;
 }
+
 
 .form {
   text-align: left;
