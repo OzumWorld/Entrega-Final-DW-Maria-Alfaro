@@ -66,6 +66,39 @@ html, body {
   max-width: 800px;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+  color: #333;
+  border: 1px solid #d8c89a;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.lista-proyectos {
+  list-style: disc;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.lista-proyectos li {
+  background: none;
+  border: none;
+  color: inherit;
+  margin: 0.3rem 0;
+}
+
+
 .logo {
   width: 100px;
   height: auto;
@@ -141,43 +174,6 @@ html, body {
 .cta-button:hover {
   background-color: #e0a800;
   border-color: #d39e00;
-}
-
-p {
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-li {
-  margin: 0.5rem 0;
-  color: #333;
-  border: 1px solid #d8c89a;
-  border-radius: 5px;
-  background-color: #fff;
-}
-
-.lista-proyectos {
-  list-style: disc;
-  list-style-position: inside;
-  padding-left: 0;
-  margin: 0 auto;
-  text-align: left;
-  display: inline-block;
-  color: #fff;
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
-.lista-proyectos li {
-  background: none;
-  border: none;
-  color: inherit;
-  margin: 0.3rem 0;
 }
 
 /* Imágenes */
