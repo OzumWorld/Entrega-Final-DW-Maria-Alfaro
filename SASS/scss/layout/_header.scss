@@ -3,7 +3,7 @@
 @use '../abstracts/index' as abstracts;
 
 .header {
-    background-color: rgba(255, 248, 230, 0.8);
+    background-color:  #0085ad rgba(255, 248, 230, 0.8);
     padding: 2rem 1rem;
     border: 2px solid abstracts.$color-secondary;
     border-radius: 10px;
@@ -12,6 +12,7 @@
 }
 
 .header__title {
+    background-color: #0085ad;
     font-family: abstracts.$font-primary;
     font-size: 2.8rem;
     letter-spacing: 2px;
