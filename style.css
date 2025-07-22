@@ -176,6 +176,15 @@ li {
   border-color: #d39e00;
 }
 
+.btn-yellow {
+  background-color: #ffc107;
+  color: #000;
+}
+.btn-yellow:hover {
+  background-color: #fff;
+  color: #00446a;
+}
+
 /* Imágenes */
 .medusa-img {
   display: block;
