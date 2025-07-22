@@ -23,7 +23,7 @@ html, body {
 
 /* Navbar */
 .navbar {
-  background-color: #00446a;
+  background-color: #00446a !important;
   border-bottom: 1.5px solid #f6cd4c;
   font-family: 'IM Fell English SC', serif;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -112,12 +112,12 @@ li {
   font-size: 2.8rem;
   letter-spacing: 2px;
   margin: 1rem 0 0.5rem;
-  color: #00446a;
+  color: #0085ad !important;
 }
 
 .header__subtitle {
   font-style: italic;
-  color: #003b54;
+  color: #0085ad !important;
   margin-bottom: 1rem;
 }
 
@@ -229,6 +229,28 @@ li {
 .form input[type="submit"]:hover {
   background-color: #e0a800;
   color: #0075b3;
+}
+
+.footer {
+  background-color: #00446a;
+  color: #f3f2eb;
+  font-family: 'IM Fell English SC', serif;
+  border-top: 1px solid #d4c365;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.footer__img {
+  max-width: 120px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
 }
 
 /* Media Queries */
