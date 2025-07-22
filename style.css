@@ -193,6 +193,39 @@ footer {
   padding-bottom: 2rem;
 }
 
+#datos-bancarios {
+  background-color: #f1eddf;
+  color: #003c5c;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+#datos-bancarios h2 {
+  color: #003c5c;
+}
+#datos-bancarios p {
+  color: #00446a;
+}
+
+#datos p {
+  color: #00446a; /* Azul oscuro */
+}
+
+.bank-data {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  color: #ffc107;
+  margin-top: 1rem;
+}
+.bank-data li {
+  color: #ffc107;
+  margin-bottom: 0.4rem;
+}
+
+.section__title {
+  color: #00446a; /* beige claro para fondo azul */
+}
 
 .cta-button {
   margin-top: 2rem; /* espacio superior */
